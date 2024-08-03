@@ -1,9 +1,10 @@
-/*Universal Selector setting font family
+/* Universal Selector setting font family */
 *{
     font-family: "Times New Roman", sans-serif;
     /*scroll-behavior: smooth;*/
 }
 
+/* Header setting to fixed and top layer on page */
 #header-1{
     position: fixed;
     z-index: 1;
@@ -13,12 +14,16 @@
     top: 0;
     background-color: darkgreen;
 }
+
+/* Center section with image of me and family */
 #section-2{
     position: relative;
     top: 20px;
     color: darkgreen;
     text-align: center;
 }
+
+/* Contact section */
 #section-3{
     position: relative;
     top: 20px;
@@ -27,6 +32,8 @@
     text-align:center;
     padding-bottom: 5px;
 }
+
+/* Footer section */
 footer{
     position: relative;
     top: 20px;
@@ -36,20 +43,25 @@ footer{
     color: white;
 }
 
+/* Contact header */
 #contact{
     margin-top: 3px;
     margin-bottom: 3px;
 }
 
+/* Div box being used for border around forms */
 #small-box{
     border: 3px solid red;
     padding: 3px;
     display: inline-block;
 }
+
+/* Coloring for links */
 a{
     color:white;
 }
 
+/* Pushes the contact button left a bit so it doesn't run off page */
 #contact-button{
     margin-right: 15px;
 }

@@ -1,0 +1,55 @@
+/*Universal Selector setting font family
+*{
+    font-family: "Times New Roman", sans-serif;
+    /*scroll-behavior: smooth;*/
+}
+
+#header-1{
+    position: fixed;
+    z-index: 1;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    background-color: darkgreen;
+}
+#section-2{
+    position: relative;
+    top: 20px;
+    color: darkgreen;
+    text-align: center;
+}
+#section-3{
+    position: relative;
+    top: 20px;
+    background-color: lightgreen;
+    color: darkgreen;
+    text-align:center;
+    padding-bottom: 5px;
+}
+footer{
+    position: relative;
+    top: 20px;
+    background-color:darkgreen;
+    width: 100%;
+    text-align:center;
+    color: white;
+}
+
+#contact{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#small-box{
+    border: 3px solid red;
+    padding: 3px;
+    display: inline-block;
+}
+a{
+    color:white;
+}
+
+#contact-button{
+    margin-right: 15px;
+}
